@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kryontechnology.demoiot.verify_operator1"
+    android:background="@drawable/bg2">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <!--topbar-->
+
+        <ImageView
+            android:id="@+id/imageview_operation_top_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="0dp"
+            android:src="@drawable/top_bar"
+            android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/imageview_return"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="767dp"
+                android:clickable="true"
+                android:src="@drawable/return_ic"
+                android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/imageview_return_gn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginLeft="767dp"
+                    android:clickable="true"
+                    android:src="@drawable/return_ic_gn"
+                    android:visibility="invisible" />
+
+                    <ImageView
+                        android:id="@+id/imageview_top_help_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginLeft="855dp"
+                        android:adjustViewBounds="true"
+                        android:clickable="true"
+                        android:src="@drawable/help"
+                        android:visibility="visible" />
+
+                        <ImageView
+                            android:id="@+id/imageview_top_help_button_gn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginLeft="855dp"
+                            android:adjustViewBounds="true"
+                            android:clickable="true"
+                            android:src="@drawable/help_gn"
+                            android:visibility="invisible" />
+
+                            <ImageView
+                                android:id="@+id/imageview_top_shut_down"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="0dp"
+                                android:layout_marginLeft="943dp"
+                                android:clickable="true"
+                                android:src="@drawable/shutdown"
+                                android:visibility="visible" />
+
+                                <ImageView
+                                    android:id="@+id/imageview_top_shut_down_gn"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="0dp"
+                                    android:layout_marginLeft="943dp"
+                                    android:clickable="true"
+                                    android:src="@drawable/shutdown_gn"
+                                    android:visibility="invisible" />
+        <!--main body-->
+
+
+        <ImageView
+            android:id="@+id/imageview_op_1_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="380dp"
+            android:src="@drawable/op_1_desc"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/imageview_verify_op1_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="440dp"
+            android:src="@drawable/verify_op1_image"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/imageview_op1_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="390dp"
+            android:layout_marginLeft="440dp"
+            android:src="@drawable/op1_name"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/imageview_op_verify_gy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="420dp"
+            android:layout_marginLeft="380dp"
+            android:src="@drawable/op_verify_gy"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/imageview_op_verify_gn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="420dp"
+            android:layout_marginLeft="380dp"
+            android:src="@drawable/op_verify_gn"
+            android:visibility="invisible" />
+
+
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>
+

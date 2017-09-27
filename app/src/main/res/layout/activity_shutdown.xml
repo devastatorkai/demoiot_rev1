@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kryontechnology.demoiot.Shutdown"
+    android:background="@drawable/bg2">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">>
+
+        <!--topbar-->
+
+        <ImageView
+            android:id="@+id/imageview_operation_top_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="0dp"
+            android:src="@drawable/top_bar"
+            android:visibility="visible" />
+
+
+
+        <!--main body-->
+
+    <ImageView
+        android:id="@+id/imageview_shutdown_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="315dp"
+        android:src="@drawable/shutdown_icon"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageview_shutdown_cancel_gy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="325dp"
+        android:clickable="true"
+        android:src="@drawable/shutdown_cancel_gy"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageview_shutdown_cancel_gn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="325dp"
+        android:clickable="true"
+        android:src="@drawable/shutdown_cancel_gn"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/imageview_shutdown_power_gy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="525dp"
+        android:clickable="true"
+        android:src="@drawable/shutdown_power_gy"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageview_shutdown_power_gn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="525dp"
+        android:clickable="true"
+        android:src="@drawable/shutdown_power_gn"
+        android:visibility="invisible" />
+
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>

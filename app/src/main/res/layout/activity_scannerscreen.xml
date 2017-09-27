@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kryontechnology.demoiot.Scannerscreen"
+    android:background="@drawable/bg1">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="689dp"
+        tools:layout_editor_absoluteY="-422dp">
+
+        <FrameLayout
+            android:id="@+id/surfaceview_camera_preview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginRight="38dp"
+            android:layout_marginTop="90dp" />
+
+        <!--topbar-->
+
+
+        <ImageView
+            android:id="@+id/imageview_operation_top_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/op_top_bar"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/imageview_ham_menu_gy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:clickable="true"
+            android:src="@drawable/ham_menu_gy"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/imageview_top_help_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="943dp"
+            android:layout_marginTop="0dp"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:src="@drawable/top_help_button"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/imageview_top_help_button_gn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="943dp"
+            android:layout_marginTop="0dp"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:src="@drawable/top_help_gn"
+            android:visibility="invisible" />
+
+
+        <ImageView
+            android:id="@+id/imageview_camera_inactive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="470dp"
+            android:layout_marginTop="0dp"
+            android:clickable="true"
+            android:src="@drawable/camera_inactive"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/imageview_camera_active"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="470dp"
+            android:layout_marginTop="0dp"
+            android:clickable="true"
+            android:src="@drawable/camera_active"
+            android:visibility="invisible" />
+
+        <!--main body-->
+
+        <ImageView
+            android:id="@+id/imageview_nano_full_ic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="875dp"
+            android:layout_marginTop="88dp"
+            android:src="@drawable/nano_full_ic"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/imageview_nano_full_tx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="875dp"
+            android:layout_marginTop="87dp"
+            android:src="@drawable/nano_full_tx"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/imageview_led_gn_ic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="875dp"
+            android:layout_marginTop="202dp"
+            android:src="@drawable/led_gn_ic"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/imageview_led_5_tx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="875dp"
+            android:layout_marginTop="205dp"
+            android:src="@drawable/led_5_tx"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/imageview_bat_full_ic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="905dp"
+            android:layout_marginTop="342dp"
+            android:src="@drawable/bat_full_ic"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/imageview_bat_full_tx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="875dp"
+            android:layout_marginTop="322dp"
+            android:src="@drawable/bat_full_tx"
+            android:visibility="visible" />
+
+
+        <ImageView
+            android:id="@+id/imageview_nano_use_full_ic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="875dp"
+            android:layout_marginTop="442dp"
+            android:src="@drawable/nano_use_full_ic"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/imageview_nano_use_full_tx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="875dp"
+            android:layout_marginTop="452dp"
+            android:src="@drawable/nano_use_full_tx"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/imageview_cam_scan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="395dp"
+            android:layout_marginTop="240dp"
+            android:src="@drawable/cam_scan"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/DATETime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="520dp"
+            android:text="TIME:"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <DigitalClock
+            android:id="@+id/digitalClock1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="115dp"
+            android:layout_marginTop="520dp"
+            android:text="DigitalClock"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/DATE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="740dp"
+            android:layout_marginTop="520dp"
+            android:text=""
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageview_bg_boxes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="90dp"
+            android:src="@drawable/camera_bg_2"
+            android:visibility="visible" />
+
+
+    </FrameLayout>
+
+
+</android.support.constraint.ConstraintLayout>
+
+<!--
+
+                                <ImageView
+                                    android:id="@+id/imageview_top_shut_down"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="0dp"
+                                    android:layout_marginLeft="943dp"
+                                    android:clickable="true"
+                                    android:src="@drawable/top_shut_down"
+                                    android:visibility="visible" />
+
+                                    <ImageView
+                                        android:id="@+id/imageview_top_shut_down_gn"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="0dp"
+                                        android:layout_marginLeft="943dp"
+                                        android:clickable="true"
+                                        android:src="@drawable/top_shut_down_gn"
+                                        android:visibility="invisible" />
+
+                                                        <ImageView
+                                                            android:id="@+id/imageview_return"
+                                                            android:layout_width="wrap_content"
+                                                            android:layout_height="wrap_content"
+                                                            android:layout_marginTop="0dp"
+                                                            android:layout_marginLeft="767dp"
+                                                            android:clickable="true"
+                                                            android:src="@drawable/top_return_button"
+                                                            android:visibility="visible" />
+
+                                                            <ImageView
+                                                                android:id="@+id/imageview_return_gn"
+                                                                android:layout_width="wrap_content"
+                                                                android:layout_height="wrap_content"
+                                                                android:layout_marginTop="0dp"
+                                                                android:layout_marginLeft="767dp"
+                                                                android:clickable="true"
+                                                                android:src="@drawable/top_return_gn"
+                                                                android:visibility="invisible" />
+
+                                                                -->

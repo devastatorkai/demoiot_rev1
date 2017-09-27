@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kryontechnology.demoiot">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/MyThemeNoBar">
+        <activity android:name=".loading_Screen"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".login_operator1"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".team_selection"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".verify_operator1"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".getstarted_operator1"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Scannerscreen"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".call_help"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Shutdown"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".password_info"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".hammenu"
+            android:screenOrientation="landscape"></activity>
+    </application>
+
+</manifest>

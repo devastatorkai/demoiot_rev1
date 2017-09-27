@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kryontechnology.demoiot.hammenu"
+    android:background="@drawable/bg1">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <!--topbar-->
+
+        <ImageView
+            android:id="@+id/imageview_operation_top_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/op_top_bar"
+            android:visibility="visible" />
+
+
+        <ImageView
+            android:id="@+id/imageview_ham_menu_gy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:clickable="true"
+            android:src="@drawable/ham_menu_gy"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/imageview_top_help_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="943dp"
+            android:layout_marginTop="0dp"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:src="@drawable/top_help_button"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/imageview_top_help_button_gn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="943dp"
+            android:layout_marginTop="0dp"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:src="@drawable/top_help_gn"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/imageview_ham_perf_gy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="80dp"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:src="@drawable/ham_perf_gy"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/imageview_ham_perf_gn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="80dp"
+            android:clickable="true"
+            android:src="@drawable/ham_perf_gn"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/imageview_ham_op_gy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="202dp"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:src="@drawable/ham_op_gy"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/imageview_ham_op_gn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="202dp"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:src="@drawable/ham_op_gn"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/imageview_ham_restart_gy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="324dp"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:src="@drawable/ham_restart_gy"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/imageview_ham_restart_gn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="324dp"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:src="@drawable/ham_restart_gn"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/imageview_ham_shutd_gy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="446dp"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:src="@drawable/ham_shutd_gy"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/imageview_ham_shutd_gn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="446dp"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:src="@drawable/ham_shutd_gn"
+            android:visibility="invisible" />
+
+
+        <ImageView
+            android:id="@+id/imageview_nano_full_ic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="88dp"
+            android:layout_marginLeft="875dp"
+            android:src="@drawable/nano_full_ic"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/imageview_nano_full_tx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="87dp"
+            android:layout_marginLeft="875dp"
+            android:src="@drawable/nano_full_tx"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/imageview_led_gn_ic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="202dp"
+            android:layout_marginLeft="875dp"
+            android:src="@drawable/led_gn_ic"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/imageview_led_5_tx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="205dp"
+            android:layout_marginLeft="875dp"
+            android:src="@drawable/led_5_tx"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/imageview_bat_full_ic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="342dp"
+            android:layout_marginLeft="905dp"
+            android:src="@drawable/bat_full_ic"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/imageview_bat_full_tx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="322dp"
+            android:layout_marginLeft="875dp"
+            android:src="@drawable/bat_full_tx"
+            android:visibility="visible" />
+
+
+        <ImageView
+            android:id="@+id/imageview_nano_use_full_ic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="442dp"
+            android:layout_marginLeft="875dp"
+            android:src="@drawable/nano_use_full_ic"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/imageview_nano_use_full_tx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="452dp"
+            android:layout_marginLeft="875dp"
+            android:src="@drawable/nano_use_full_tx"
+            android:visibility="visible" />
+
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>
